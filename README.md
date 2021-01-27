@@ -23,3 +23,7 @@ someFunction()                      -- call function from "some_resource"
 some_resource_2.someFunction()      -- call function from "some_resource_2"
 sr3.someFunction()                  -- call function from "some_resource_3"
 ```
+
+## Performance
+
+  Calling imported functions is 50% faster than calling `exports["resource"]:f()` and 4% slower than calling `call(resource, "f")`.
