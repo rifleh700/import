@@ -1,6 +1,6 @@
 ## Description
 
-	Tiny lib for easy import of functions from other MTA:SA resources.
+    Tiny lib for easy import of functions from other MTA:SA resources.
 
 ## How to use
 
