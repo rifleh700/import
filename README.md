@@ -1,6 +1,6 @@
 ## Description
 
-    Tiny lib for easy import of functions from other MTA:SA resources.
+  Tiny lib for easy import of functions from other MTA:SA resources.
 
 ## How to use
 
@@ -19,7 +19,7 @@ import("some_resource_2", true)
 import("some_resource_3", true, "sr3")
 
 -- main.lua
-someFunction()					-- call function from "some_resource"
-some_resource_2.someFunction()	-- call function from "some_resource_2"
-sr3.someFunction()				-- call function from "some_resource_3"
+someFunction()						-- call function from "some_resource"
+some_resource_2.someFunction()		-- call function from "some_resource_2"
+sr3.someFunction()					-- call function from "some_resource_3"
 ```
